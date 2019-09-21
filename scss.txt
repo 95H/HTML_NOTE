@@ -1,0 +1,22 @@
+﻿sass的安装方法 https://www.cnblogs.com/bettyling/6070734.h6tml
+安装sass步骤：
+1.先安装ruby
+2.然后安装sass 进入运行cmd进入命令提示符 输入ruby-v查看版本号 
+  如果正确显示版本号 则说 明ruby安装成功 然后进入gem install sass进行安装
+  环境变量就是告诉电脑在任何盘都可以访问到
+使用sass步骤：
+ 1.我们需要进入终端 cmd中执行命令
+ 2.c/d/e+: 进入自己的项目盘 md+文件 进入文件夹
+创建css和scss文件夹
+ 3.执行sass命令 sass 空格--watch scss:css 
+   (scss和css可以是任意值 watch监听scss里面变化则css变化)
+ 4.在scss文件夹中新建一个后缀名为scss的文件 监听开始
+
+   <script type="text/javascript">
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 +"px";
+				var deviceWidth = document.documentElement.clientWidth;
+				if (deviceWidth > 640) {
+					deviceWidth = 640;
+				}
+		document.documentElement.style.fontSize = deviceWidth / 6.4 + "px";
+	</script>
